@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.vaccinationapp">
+
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/th"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/th"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vaccination">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".user.WelcomeActivity" />
+
+        <activity android:name=".user.DashboardActivity" />
+        <activity android:name=".user.DownloadCertificateActivity" android:parentActivityName=".user.DashboardActivity" />
+        <activity android:name=".user.LoginActivity" />
+        <activity android:name=".user.RegisterActivity" />
+        <activity android:name=".user.RequestActivity" android:parentActivityName=".user.DashboardActivity" />
+        <activity android:name=".user.RequestFollowupActivity" android:parentActivityName=".user.DashboardActivity" />
+
+        <activity android:name=".admin.AccueilAdmin" />
+        <activity android:name=".admin.ValiderVaccination" />
+        <activity android:name=".admin.ConfirmerValidation" />
+        <activity android:name=".admin.Demande" />
+        <activity android:name=".admin.ListeDemande" />
+        <activity android:name=".admin.ListeVaccin" />
+        <activity android:name=".admin.Stat" />
+
+
+    </application>
+
+</manifest>
