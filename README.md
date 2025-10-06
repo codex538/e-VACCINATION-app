@@ -1,6 +1,6 @@
 # e-Vaccination android app
 
-I am Karan Sankhavara, and my friends and I completed this project. My role was mostly handling front-end errors and development.
+I am Karan Sankhavara, and my friends and I completed this project. My role was mostly handling back-end errors and development.
 
 Purpose:
 • Simplifying the Vaccination Process :
